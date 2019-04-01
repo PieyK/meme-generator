@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei');
+@import url('https://fonts.googleapis.com/css?family=Cinzel');
+
+body {
+  margin: 0;
+}
+
+header {
+  background-color: #0a2551;
+  max-height: 90px;
+}
+
+p {
+  text-align: center;
+  margin: 0 auto;
+  font-size: 60px;
+  color: #97a6bf;
+}
+
+.form {
+  width: 90%;
+  margin: 20px auto;
+}
+
+input[type="text"] {
+  outline: none;
+  width: 40%;
+  font-family: 'ZCOOL XiaoWei', serif;
+  font-size: 30px;
+  text-align: center
+}
+
+button {
+  background-color: #0a2551;
+  color: #97a6bf;
+  font-size: 35px;
+}
+
+button:focus {
+  outline: none;
+}
+
+.meme {
+  position: relative;
+  width: 90%;
+  margin: auto;
+}
+
+.meme>img {
+  width: 100%;
+}
+
+.meme>.top {
+  top: 0;
+}
+
+.meme>.bottom {
+  bottom: 0;
+}
+
+.meme>h2 {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: 'Cinzel', serif;
+  font-size: 35px;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow: -4px 2px #131b28, 0 -3px #131b28, 2px 0 #131b28;
+}
